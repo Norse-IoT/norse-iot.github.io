@@ -188,3 +188,9 @@ body {
 	width: 40px;
 	margin-right: 20px;
 }
+.name a {
+	color: #015d82;
+}
+.name a:hover {
+	color: #3e758e 
+}
