@@ -450,14 +450,16 @@
 	<footer class="container">
 		<p class="float-end"><a class="social" href="#top"><i class="fa fa-arrow-up"></i></a></p>
 		<p id="social-block">
-			<span class="item">© 2022 Norse IoT Club</span>
+			<span class="item">© <span id="year">2022</span> Norse IoT Club</span>
 			 · <a class="social item" target="_blank" href="https://github.com/norse-iot"><i class="fa fa-github"></i></a>
 			 · <a class="social item" target="_blank" href="https://instagram.com/norseiot"><i class="fa fa-instagram"></i></a>
 			 · <a class="social item" target="_blank" href="https://twitter.com/norseiot"><i class="fa fa-twitter"></i></a>
 			 · <a class="social item" target="_blank" href="https://www.linkedin.com/company/norse-iot/"><i class="fa fa-linkedin"></i></a>
 		</p>
 	</footer>
-
+	<script>
+		document.getElementById("year").innerHTML = new Date().getFullYear()
+	</script>
 	<script src="js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
       
   
