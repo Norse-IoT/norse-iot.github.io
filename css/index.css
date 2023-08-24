@@ -209,3 +209,7 @@ details, summary {
 	color: #0d0d0d;
 	fill: #0d0d0d !important;
 }
+#join-now-svg {
+	height: 30vh;
+	max-height: 200px;
+}
