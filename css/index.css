@@ -189,9 +189,12 @@ body {
 	width: 40px;
 	margin-right: 20px;
 }
-.name a {
+.name a, summary {
 	color: #015d82;
 }
 .name a:hover {
-	color: #3e758e 
+	color: #6b9fb7 
+}
+details, summary {
+	display: inline;
 }
