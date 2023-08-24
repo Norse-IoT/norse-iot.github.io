@@ -198,3 +198,14 @@ body {
 details, summary {
 	display: inline;
 }
+
+.social.item svg {
+	width: 28px; 
+	height: 28px; 
+	fill: #5a5a5a;
+}
+
+.social svg:hover, .social svg:active {
+	color: #0d0d0d;
+	fill: #0d0d0d !important;
+}
