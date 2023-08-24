@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="">
 		<meta name="author" content="Chris Brewer, Jonathan Makunga, Con Godsted">
-		<title>Norse IoT Club (n-IoT)</title>
+		<title>Norse IoT Club - Project Showcase</title>
 		<link href="../css/animate.min.css" rel="stylesheet">
 		<link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin="true"> 
 		<link href="../css/css2.css" rel="stylesheet">
@@ -14,6 +14,7 @@
 		<!-- Custom styles for this template -->
 		<link href="../css/index.css" rel="stylesheet">
 		<link href="../favicon.png" rel="shortcut icon" type="image/x-icon">
+		<link href="../css/projects.css" rel="stylesheet" >
 
 	</head>
 	<body>
@@ -98,13 +99,13 @@
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<ul class="navbar-nav me-auto mb-2 mb-md-0">
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#top">Home</a>
+							<a class="nav-link" href="../">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="./projects">Project Showcase</a>
+							<a class="nav-link active" aria-current="page" href="#top">Project Showcase</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#officers">Officers</a>
+							<a class="nav-link" href="../#officers">Officers</a>
 						</li>
 						<!--<li class="nav-item">
 							<a class="nav-link disabled">Disabled</a>
@@ -126,120 +127,49 @@
 	</header>
 
 	<main id="top">
-		<div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-interval="7000" data-pause="hover">
-			<div class="carousel-indicators">
-				<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
-				<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-				<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-			</div>
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<div class="animate__animated animate__rubberBand bgimage" style="background-image: url(images/esp-32.jpg);background-size: contain;"></div>
-					<div class="container">
-						<div class="carousel-caption bg animate__animated animate__flipInX animate__delay-1s">
-							<h1 class="carousel-caption-text">These are not centipedes.</h1>
-							<p class="carousel-caption-text">Or bad robot brains. Since they're not, you don't need to be afraid of them. They're actually really nice.</p>
-							<!--<p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>-->
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<div class="bgimage" style="background-image: url(images/esp-32-temp.jpg);background-size: cover;"></div>
-					<div class="container">
-						<div class="bg carousel-caption animate__animated animate__flipInY animate__delay-1s">
-							<h1 class="carousel-caption-text">What the what?</h1>
-							<p class="carousel-caption-text">This is a microcontroller. In this club, you'll use it to build, well, whatever you want.</p>
-							<!--<p><a class="btn btn-lg btn-primary" href="https://nku.campusgroups.com/IoT/club_signup">Sign up today</a></p>-->
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<div class="animate__animated animate__zoomInDown bgimage" style="background-image: url(images/LED_blink_320.gif);background-size: contain;background-repeat: no-repeat;background-color: #11100d;"></div>
-					<div class="container">
-						<div class="carousel-caption animate__animated animate__flipInX animate__delay-1s">
-							<h1 class="carousel-caption-text">Green light. Go!</h1>
-							<p class="carousel-caption-text">The knowledge and skills you'll gain in this club will turn your career traffic lights green. </p>
-							<!--<p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>-->
-						</div>
-					</div>
-				</div>
-			</div>
-			<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
-			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
-			</button>
-		</div><!-- end #myCarousel -->
-
 		<!-- Marketing messaging and featurettes
 		================================================== -->
 		<!-- Wrap the rest of the page in another container to center all the content. -->
 
 		<div class="container marketing" id="mission">
-			<hr class="featurette-divider">
+			
 			<!-- START THE FEATURETTES -->
-
+<!--Keychains not yet ready for production.
+	<hr class="featurette-divider">
 			<div class="row featurette">
 				<div class="col-md-7 order-md-2">
-					<h2 class="featurette-heading">Our club's mission</h2>
-					<p class="lead">The Norse IoT club is focused on student-led 
-						research and projects concerning Internet of Things devices and 
-						applications. We hope to foster a community for students, faculty, 
-						alumni, and industry professionals who are enthusiastic about the 
-						opportunities IoT has to offer.
-					</p>
-					<p>The purpose and objectives of the club are to:</p>
-					<ul>
-						<li>Share knowledge and ideas among students, faculty, and industry.</li>
-						<li>Establish a playground for IoT &amp; Industry 4.0.</li>
-						<li>Develop skills outside of the standard university curriculum.</li>
-						<li>Foster an innovative and entrepreneurial environment.</li>
-						<li>Partner with industry pros working on real-world practical projects.</li>
-						<li>Create an environment for work, tinkering &amp; socializing.</li>
-					</ul>
-					<div>Club members will perform hands-on projects with a variety of 
-						technologies, such as 
-						<details><summary>microcontrollers </summary>(ESP-32) </details>, 
-						<details><summary>sensors</summary> (LIDAR, ultrasonic, infrared, temperature, humidity, etc.)</details>, 
-						<details><summary>networks</summary> (Wi-Fi, Bluetooth, LoRa)</details>, 
-						<details><summary>motion</summary> (motors, servos)</details>, 
-						and 
-						<details><summary>visual displays</summary> (TFT, OLED, LED, electrochromic)</details>.  
-						
-					</div>
-					<p></p>
-					
-					<p>Students from all courses of study at NKU are welcome, no technical experience required.
-						The club prioritizes projects that are transdisciplinary, because IoT
-						touches every aspect of life.
+					<h2 class="featurette-heading">IoT Keychains</h2>
+					<p class="lead">
+						A member of the Norse IoT club, you are provided with a keychain 
+						designed and manufactured by the club, with the school year and club 
+						logo engraved in it. The first prototypes were created in 2023.
 					</p>
 				</div>
 				<div class="col-md-5 order-md-1">
-					<img class="featurette-image img-fluid mx-auto" src="images/sensors.jpg" alt="A collection of sensors and a screen shot of code in Arduino" width="500">
+					<model-viewer src="../models/keychain.glb" alt="A 3D model of a prototype Norse IoT keychain." auto-rotate="" camera-controls="" background-color="#455A64"></model-viewer>
 				</div>
 			</div>
-
+-->
 			
 
 			<hr class="featurette-divider" id="info">
 			
 			<div class="row featurette">
 				<div class="col-md-7">
-					<h2 class="featurette-heading">Learn in-demand skills. <span class="text-muted">In a chill, peer-driven setting.</span></h2>
-					<p class="lead">Learning about IoT and working on projects ties all
-						the knowledge you've gained as a student together. IoT projects can 
-						involve coding, networking, electrical engineering, 
-						3D design, databases, cloud services, UI, and more.
-						In Norse IoT, you'll work side by side with other students, as you 
-						explore the techology you'll use to build the projects only you can 
-						dream up.
+					<h2 class="featurette-heading">Humidity Project</h2>
+					<p class="lead">
+						In early 2023, Griffin Hall flooded. Even after the water was cleared, 
+						the building remained too humid to work in. Club Advisor Chris Brewer 
+						and members of n-IoT decided to install humidity sensors in the building to monitor the ongoing situation.
+						Information was visible on an easy to read dashboard containing graphs and data recieved by the sensors.
+						The project recieved attention from the Dean of the College of Informatics, as well as NKU maintenance,
+						and was <a target="_blank" href="https://www.thenortherner.com/news/2023/02/10/how-norse-iot-club-builds-humidity-sensors-for-griffin-hall">
+						spotlighted by the Northerner in February 2023</a>.
+						The dashboard was shut down after the situation was resolved in Summer 2023.
 					</p>
 				</div>
 				<div class="col-md-5 d-flex align-items-center justify-content-center">
-					<img class="featurette-image img-fluid mx-auto" src="images/crazy.gif" alt="A child screaming" width="500">
+					<img class="featurette-image img-fluid mx-auto" src="../images/esp-32-temp.jpg" alt="A prototype of the Humidity Sensor used in Grifin Hall." width="500">
 				</div>
 			</div>
 
@@ -247,74 +177,18 @@
 
 			<div class="row featurette">
 				<div class="col-md-7 order-md-2">
-					<h2 class="featurette-heading">Build your network. <span class="text-muted">And build your network.</span></h2>
-					<p class="lead">Connectedness matters, to people and digital 
-						devices. In n-IoT, you'll gain skills working with other people, while 
-						the devices you build learn to work with other devices. In both cases, 
-						the information shared makes the network better.
+					<h2 class="featurette-heading">Website Workshops</h2>
+					<p class="lead">
+						In 2022, the club focused on informing NKU students about
+						NKU's personal websites. The club hosted an event that
+						taught students basic HTML and CSS and provided templates
+						for students to build off and host on an NKU provided personal website.
 					</p>
 				</div>
 				<div class="col-md-5 order-md-1">
-					<img class="featurette-image img-fluid mx-auto" src="/images/wave.gif" alt="People dancing with robots" width="500">
+					<img style="height: 58%; object-fit: cover; object-position: top;" class="featurette-image img-fluid mx-auto" src="https://congodsted.com/images/websiteworkshop.png" alt="Flyer advertising the Website Workshop event." width="500">
 				</div>
 			</div>
-
-			<hr class="featurette-divider">
-			<div class="row featurette d-flex align-items-center justify-content-center">
-				
-				<div class="col-md-7">
-					<h2 class="featurette-heading">What will you create? <span class="text-muted">Let's find out.</span></h2>
-					<p class="lead">
-						The Norse IoT Club meets weekly on Mondays and Thursdays from 5-7pm in Griffin Hall 350. 
-						Projects can be as varied as imagination allows, as 
-						n-IoT strives to be a place where students can develop
-						new skills, no prior experience necessary!
-				</div>
-				<div class="col-md-5 d-flex align-items-center justify-content-center">
-					<img class="featurette-image img-fluid mx-auto" src="images/meeting.jpeg" alt="A photo from a Norse IoT club meeting." width="500">
-				</div>
-				
-			</div>
-
-			<hr class="featurette-divider">	
-			<div class="row featurette d-flex align-items-center justify-content-center">
-				<div class="col-md-5 d-flex align-items-center justify-content-center">
-					<img class="featurette-image img-fluid mx-auto" src="images/banana-iot.gif" alt="A banana with a computer attached" width="500">
-				</div>
-				<div class="col-md-7">
-					<h2 class="featurette-heading">Smart people make dumb things smart. <span class="text-muted">Checkmate.</span></h2>
-					<p class="lead">IoT is at the forefront of the 4th industrial 
-						revolution. It's changing everything, from manufacturing and supply 
-						chain to consumer products like smart cars, solar panels, smart bulbs, 
-						and thermostats. But without smart people, these are just dumb devices. 
-						Just ask Siri. Or Alexa. 
-					</p>
-				</div>
-			</div>
-
-			<hr class="featurette-divider">
-
-			<div class="row featurette">
-				<div class="col-md-6">
-					<h2 class="featurette-heading">Listen In. <span class="text-muted">We're making waves.</span></h2>
-					<p class="lead">
-						From our appearance on Informatics Cafe to 
-						<a target="_blank" href="https://www.thenortherner.com/news/2023/02/10/how-norse-iot-club-builds-humidity-sensors-for-griffin-hall/#">
-							our profile in NKU's own The Northerner</a>, 
-						Norse IoT is changing this school. 
-						The question is, will you be 
-						there to help make it happen?
-					</p>
-				</div>
-				<div class="col-md-6 align-items-center justify-content-center">
-					<div id="buzzsprout-small-player-tags-n-iot">
-						<iframe src="cafe" loading="lazy" title="Informatics Cafe - A Taste of Informatics, Norse IoT Club: Making the Future"></iframe>
-					</div>
-					<script src="js/1727692.js"></script>
-				</div>
-				
-			</div>
-
 			
 
 			<!-- /END THE FEATURETTES -->
@@ -400,74 +274,6 @@
 			<div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
 		</div><!-- end #cta -->
 	
-		<div class="container marketing" id="officers">
-			<!-- Four columns of officers -->
-			<h2>Current Leadership</h2>
-			<div class="row mt-5">
-				<div class="col-lg-3 officer">
-					<img src="images/president_muscara.jpg" alt="Photo of Kevin Muscara">
-					<h2>President</h2>
-					<p><span rel="author" class="name"><a href="mailto:muscarak1@nku.edu?subject=Norse%20IoT%20Club">Kevin Muscara</a></span>
-						is a sophomore studying Applied Software Engineering.
-					</p>
-					<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
-				</div><!-- end .officer -->
-
-				<div class="col-lg-3 officer">
-					<img src="images/vp_godsted.jpg" alt="Photo of Con Godsted">
-					<h2>Vice President</h2>
-					<p><span rel="author" class="name"><a href="mailto:godstedc1@nku.edu?subject=Norse%20IoT%20Club">Con Godsted</a></span>
-						is a senior studying Computer Information Technology. He is currently 
-						working in the Informatics+ center in the College of Informatics and at 
-						the INTERalliance of Greater Cincinnati.
-					</p>
-					<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
-				</div><!-- end .officer -->
-
-				<div class="col-lg-3 officer">
-					<img src="images/sec_wilson.JPG" alt="Photo of Kristoffe Wilson">
-					<h2>Secretary</h2>
-					<p><span rel="author" class="name"><a href="mailto:wilsonk45@nku.edu?subject=Norse%20IoT%20Club">Kristoffe Wilson</a></span>
-						is a senior studying Data Science and Statistics.
-					</p>
-					<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
-				</div><!-- end .officer -->
-
-				<div class="col-lg-3 officer">
-					<img src="images/people.jpg" alt="Photo of Riley Weber-Horowitz" style="transform: scaleX(-1);filter: FlipH;-ms-filter: 'FlipH';">
-					<h2>Treasurer</h2>
-					<p><span rel="author" class="name"><a href="mailto:weberhoror2@nku.edu?subject=Norse%20IoT%20Club">Riley Weber-Horowitz</a></span> is studying Public Relations and 3D Digital Design.</p>
-					<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
-				</div><!-- end .officer -->
-			</div><!-- end .row -->
-			<h2>Previous Leadership</h2>
-			<!-- Four columns of previous officers -->
-			<div class="row mt-5">
-				<div class="col-lg-3 officer">
-					<img src="images/president_klaene.jpg" alt="Photo of Nick Klaene">
-					<h2>2021 President</h2>
-					<p><span rel="author" class="name">Nick Klaene</span>, founding 
-						president of the club, studied Computer Science and Mathematics and 
-						works in Informatics+. Nick completed his final internship as an AWS 
-						Software Development Engineer at Amazon in Seattle the summer of 2022, 
-						and will relocate to Seattle to join Amazon following his December 2022 
-						graduation.
-					</p>
-				</div><!-- end .officer -->
-
-				<div class="col-lg-3 officer">
-					<img src="images/vp_makunga.jpg" alt="Photo of Jonathan Makunga">
-					<h2>2021 Vice President</h2>
-					<p><span rel="author" class="name">Jonathan Makunga</span>, 
-						founding vice president of the club, studied Information Technology with
-						a minor in Computer Science, and worked at Informatics+ during his time
-						at NKU. After graduating in May 2022, he joined Amazon in Seattle as a 
-						AWS Software Engineer.
-					</p>
-				</div><!-- end .officer -->
-			</div><!-- end .row -->
-
-		</div><!-- end #officers -->
 
 		<hr class="featurette-divider">
 	</main>
@@ -480,18 +286,20 @@
 			 · <a class="social item" target="_blank" href="https://instagram.com/norseiot"><i class="fa fa-instagram"></i></a>
 			 · <a class="social item" target="_blank" href="https://discord.gg/H5FjtpE3pH"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.14 96.36"><g id="图层_2" data-name="图层 2"><g id="Discord_Logos" data-name="Discord Logos"><g id="Discord_Logo_-_Large_-_White" data-name="Discord Logo - Large - White"><path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/></g></g></g></svg></a>
 			 · <a class="social item" target="_blank" href="https://www.linkedin.com/company/norse-iot/"><i class="fa fa-linkedin"></i></a>
-			 · <a class="social item" target="_blank" href="https://nku.campusgroups.com/feeds?type=club&type_id=35576&tab=home"><img style="height:28px;" src="images/cg.png" alt=""></a>
+			 · <a class="social item" target="_blank" href="https://nku.campusgroups.com/feeds?type=club&type_id=35576&tab=home"><img style="height:28px;" src="../images/cg.png" alt=""></a>
 		</p>
 	</footer>
 	<script>
 		document.getElementById("year").innerHTML = new Date().getFullYear()
-		function isHidden() {
-			return (document.getElementById("officers").offsetParent === null)
-			}
 	</script>
-	<script src="js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<script src="../js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<!-- Loads model-viewer for modern browsers -->
+	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+	<!-- Loads model-viewer for older browsers -->
+	<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 	<script src="../js/universalsmoothscroll-min.js"></script>
 	<!-- We include the API's easing library (this is optional) -->
 	<script src="../js/universalsmoothscroll-ease-functions-min.js"></script>
+	
   
 </body></html>
