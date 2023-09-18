@@ -406,67 +406,110 @@
 			<div class="row mt-5">
 				<div class="col-lg-3 officer">
 					<img src="images/president_godsted.jpg" alt="Photo of Con Godsted">
-					<h2>President</h2>
-					<p><span rel="author" class="name"><a href="mailto:godstedc1@nku.edu?subject=Norse%20IoT%20Club">Con Godsted</a></span>
-						is a senior studying Computer Information Technology. He is currently 
-						working in the Informatics+ center in the College of Informatics and at 
-						the INTERalliance of Greater Cincinnati.
-					</p>
+					<h2 class="position">President</h2>
+					<span class="name">Con Godsted</span>
+					<span><a class="email" href="mailto:godstedc1@nku.edu">godstedc1@nku.edu</a></span>
+					<button class="btn btn-warning bio-button" onclick="openBio('president-bio')">BIO</button>
 					<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
-				</div><!-- end .officer -->
+				</div>
+				<div id="president-bio" class="hidden-bio"><p>
+					Con Godsted currently serves as president of the club, 
+					and is a senior studying Computer Information Technology. 
+					He is currently a student worker in the College of Informatics and 
+					the Internal Systems Admin the INTERalliance of Greater Cincinnati.</p>
+					<button onclick="closeBio('president-bio')">Close</button>
+				</div>
+				<!-- end .officer -->
 
 				<div class="col-lg-3 officer">
-					<img src="images/people.jpg" alt="Photo of Riley Weber-Horowitz" style="transform: scaleX(-1);filter: FlipH;-ms-filter: 'FlipH';">
-					<h2>Vice President</h2>
-					<p><span rel="author" class="name"><a href="mailto:weberhoror2@nku.edu?subject=Norse%20IoT%20Club">
-						Riley Weber-Horowitz</a></span> is studying Public Relations and 3D Digital Design.</p>
+					<img src="images/vp_weberhorowitz.jpeg" alt="Photo of Riley Weber-Horowitz">
+					<h2 class="position">Vice President</h2>
+					<span class="name">Riley Weber-Horowitz</span>
+					<span><a class="email" href="mailto:weberhoror2@nku.edu">weberhoror2@nku.edu</a></span>
+					<button class="btn btn-warning bio-button" onclick="openBio('vice-president-bio')">BIO</button>
 					<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
-				</div><!-- end .officer -->
+				</div>
+				<div id="vice-president-bio" class="hidden-bio"><p>
+					Riley Weber-Horowitz currently serves as vice president of the club, 
+					and is a sophomore studying Public Relations and 3D Digital Design. 
+					She is also currently a student worker in the College of Informatics.</p>
+					<button onclick="closeBio('vice-president-bio')">Close</button>
+				</div>
+				<!-- end .officer -->
+
 
 				<div class="col-lg-3 officer">
 					<img src="images/sec_wilson.JPG" alt="Photo of Kristoffe Wilson">
-					<h2>Secretary/Treasurer</h2>
-					<p><span rel="author" class="name"><a href="mailto:wilsonk45@nku.edu?subject=Norse%20IoT%20Club">Kristoffe Wilson</a></span>
-						is a senior studying Data Science and Statistics.
-					</p>
+					<h2 class="position">Secretary/Treasurer</h2>
+					<span class="name">Kristoffe Wilson</span>
+					<span><a class="email" href="mailto:wilsonk45@nku.edu">wilsonk45@nku.edu</a></span>
+					<button class="btn btn-warning bio-button" onclick="openBio('sec-bio')">BIO</button>
 					<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
-				</div><!-- end .officer -->
+				</div>
+				<div id="sec-bio" class="hidden-bio">
+					<p>Kristoffe Wilson currently serves as both secretary and treasurer of the club, and is a senior studying Data Science and Statistics.</p>
+					<button onclick="closeBio('sec-bio')">Close</button>
+				</div>
+				<!-- end .officer -->
 
 				
 			</div><!-- end .row -->
 			<h2>Previous Leadership</h2>
 			<!-- Four columns of previous officers -->
 			<div class="row mt-5">
+
 				<div class="col-lg-3 officer">
 					<img src="images/president_muscara.jpg" alt="Photo of Kevin Muscara">
-					<h2>2022 President</h2>
-					<p><span rel="author" class="name">Kevin Muscara</span>
-						was president in 2022 and is a sophomore studying Applied Software Engineering.
-					</p>
+					<h2 class="position">2022 President</h2>
+					<span class="name">Kevin Muscara</span>
+					<span><a class="email" href="mailto:muscararak1@nku.edu">muscarak1@nku.edu</a></span>
+					<button class="btn btn-warning bio-button" onclick="openBio('kevin-president-bio')">BIO</button>
 					<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
-				</div><!-- end .officer -->
+				</div>
+				<div id="kevin-president-bio" class="hidden-bio"><p>
+					Kevin Muscara was president from 2021-2022 and is currently a sophomore studying Applied Software Engineering.
+				</p><button onclick="closeBio('kevin-president-bio')">Close</button>
+				</div>
+				<!-- end .officer -->
+
+
+
 				<div class="col-lg-3 officer">
 					<img src="images/president_klaene.jpg" alt="Photo of Nick Klaene">
-					<h2>2021 President</h2>
-					<p><span rel="author" class="name">Nick Klaene</span>, founding 
-						president of the club, studied Computer Science and Mathematics and 
-						works in Informatics+. Nick completed his final internship as an AWS 
-						Software Development Engineer at Amazon in Seattle the summer of 2022, 
-						and will relocate to Seattle to join Amazon following his December 2022 
-						graduation.
-					</p>
-				</div><!-- end .officer -->
+					<h2 class="position">2021 President</h2>
+					<span class="name">Nick Klaene</span>
+					<button class="btn btn-warning bio-button" onclick="openBio('nick-president-bio')">BIO</button>
+					<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
+				</div>
+				<div id="nick-president-bio" class="hidden-bio"><p>
+					Nick Klaene was the founding 
+					president of the club and served from 2020-2021. He studied Computer Science and Mathematics and 
+					works in Informatics+. Nick completed his final internship as an AWS 
+					Software Development Engineer at Amazon in Seattle the summer of 2022, 
+					and will relocate to Seattle to join Amazon following his December 2022 
+					graduation.
+				</p><button onclick="closeBio('nick-president-bio')">Close</button>
+				</div>
+				<!-- end .officer -->
+
 
 				<div class="col-lg-3 officer">
 					<img src="images/vp_makunga.jpg" alt="Photo of Jonathan Makunga">
-					<h2>2021 Vice President</h2>
-					<p><span rel="author" class="name">Jonathan Makunga</span>, 
-						founding vice president of the club, studied Information Technology with
-						a minor in Computer Science, and worked at Informatics+ during his time
-						at NKU. After graduating in May 2022, he joined Amazon in Seattle as a 
-						AWS Software Engineer.
-					</p>
-				</div><!-- end .officer -->
+					<h2 class="position">2021 Vice President</h2>
+					<span class="name">Jonathan Makunga</span>
+					<button class="btn btn-warning bio-button" onclick="openBio('jonathan-vp-bio')">BIO</button>
+					<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
+				</div>
+				<div id="jonathan-vp-bio" class="hidden-bio"><p>
+					Jonathan Makunga was the founding vice president of the club and served from 2020-2021 He studied 
+					Information Technology with a minor in Computer Science, and worked at Informatics+ during his time
+					at NKU. After graduating in May 2022, he joined Amazon in Seattle as a 
+					AWS Software Engineer.
+				</p><button onclick="closeBio('jonathan-vp-bio')">Close</button>
+				</div>
+				<!-- end .officer -->
+
+
 			</div><!-- end .row -->
 
 		</div><!-- end #officers -->
@@ -494,6 +537,7 @@
 	<script src="js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	<script src="../js/universalsmoothscroll-min.js"></script>
 	<!-- We include the API's easing library (this is optional) -->
+	<script src="../js/bio.js"></script>
 	<script src="../js/universalsmoothscroll-ease-functions-min.js"></script>
   
 </body></html>

@@ -10,6 +10,8 @@
 }
 .officer {
 	align-items: stretch;
+	display: flex;
+	flex-direction: column;
 }
 .officer .name {
 	font-weight: 500;
@@ -19,6 +21,15 @@
 	border-radius: 100%;
 	width: 140px;
 	height: 140px;
+	margin:auto;
+}
+
+.bio-button {
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+	margin-top: 5px;
 }
 
 
@@ -179,6 +190,9 @@ body {
 .officer > h2 {
 	font-size: 1.3em;
 }
+.officer > h3 {
+	font-size: 1.1em;
+}
 
 @media (min-width: 768px) {
 	.bd-placeholder-img-lg {
@@ -212,4 +226,27 @@ details, summary {
 #join-now-svg {
 	height: 30vh;
 	max-height: 200px;
+}
+
+.hidden-bio {
+	display: none;
+}
+.visible-bio {
+	position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    top: 25%;
+    left: 0;
+    right: 0;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: center;
+	background-color: white;
+	filter: drop-shadow(0px 0px 50px grey);
+	display: flex;
+	flex-direction: column;
+}
+.visible-bio p {
+	padding: 3%;
 }
