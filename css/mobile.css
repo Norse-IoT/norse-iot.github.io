@@ -1,0 +1,11 @@
+.animate__animated.animate__rubberBand.bgimage {
+    background-repeat: no-repeat;
+}
+
+.visible-bio {
+    width: 96% !important;
+}
+
+#smart-people {
+    flex-direction: column-reverse;
+}
