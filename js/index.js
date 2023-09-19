@@ -30,4 +30,6 @@ function closeBio(bio) {
     
 }
    
+document.getElementById("year").innerHTML = new Date().getFullYear()
+
        

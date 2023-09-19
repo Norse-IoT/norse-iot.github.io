@@ -246,7 +246,6 @@ details, summary {
 	filter: drop-shadow(0px 0px 50px grey);
 	display: flex;
 	flex-direction: column;
-	
 }
 .visible-bio p {
 	padding: 3%;
