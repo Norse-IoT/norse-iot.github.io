@@ -30,6 +30,8 @@ function closeBio(bio) {
     
 }
    
-document.getElementById("year").innerHTML = new Date().getFullYear()
 
-       
+document.getElementById("year").innerHTML = new Date().getFullYear()
+function isHidden() {
+    return (document.getElementById("officers").offsetParent === null)
+    }
