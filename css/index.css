@@ -211,6 +211,7 @@ body {
 }
 details, summary {
 	display: inline;
+	display: -webkit-inline-box;
 }
 
 .social.item svg {
