@@ -1,7 +1,12 @@
 //opens the specified menu
 function openBio(bio) {
+    //close a previously opened bio
+    oldBio = document.querySelector(".visible-bio")
+    if (oldBio != null) {
+        closeBio(oldBio.id)
+    }
+    //open bio
     document.getElementById(bio).className = "visible-bio";
-    
     document.getElementById(bio).style.opacity = 0;
     let opacity = parseFloat(document.getElementById(bio).style.opacity)
     setInterval(function(){
