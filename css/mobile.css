@@ -9,3 +9,14 @@
 #smart-people {
     flex-direction: column-reverse;
 }
+
+.flex {
+    flex-direction: column;
+}
+#cta {
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+#join-now-svg {
+    margin-bottom: 1em;
+}

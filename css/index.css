@@ -13,6 +13,19 @@
 	display: flex;
 	flex-direction: column;
 }
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+.text {
+	color: var(--color-secondary)
+}
+.join-now {
+	margin-top: 1em;
+	width: 100%;
+}
+
 .officer .name {
 	font-weight: 500;
 }
