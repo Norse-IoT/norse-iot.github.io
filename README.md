@@ -6,4 +6,4 @@ This repo is the official website of the Norse IoT Club. As a student-driven clu
 
 ## Credits
 - Chris Brewer and Jonathan Makunga, for the initial site design.
-- Con Godsted, for the conversion of the site to GitHub Pages.
+- Cassian Godsted, for the conversion of the site to GitHub Pages.
