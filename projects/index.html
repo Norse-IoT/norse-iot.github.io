@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="">
+		<meta name="description" content="A list of select student projects created in the Norse IoT club at NKU.">
 		<meta name="author" content="Chris Brewer, Jonathan Makunga, Con Godsted">
 		<title>Norse IoT Club - Project Showcase</title>
 		<link href="../css/animate.min.css" rel="stylesheet">
@@ -99,13 +99,13 @@
 					<div class="collapse navbar-collapse" id="navbarCollapse">
 						<ul class="navbar-nav me-auto mb-2 mb-md-0">
 							<li class="nav-item">
-								<a class="nav-link" href="../">Home</a>
+								<a class="nav-link" href="../index.html">Home</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link active" aria-current="page" href="#top">Project Showcase</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="../#officers">Officers</a>
+								<a class="nav-link" href="../index.html#officers">Officers</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="https://wiki.norseiot.club">Wiki</a>
@@ -138,14 +138,35 @@
 				
 				<!-- START THE FEATURETTES -->
 
-		<hr class="featurette-divider">
+				<div class="row featurette my-5">
+					<div class="col-md-7">
+						<h2 class="featurette-heading">Smart Garage Doors</h2>
+						<p class="lead">
+							This prototype device turns *any* garage door opener into a smart home device. It is configured using a captive portal to join 
+							the local Wi-Fi, and is automatically added to Apple's Home.app. It is controllable remotely, using the Home app or Siri,
+							on any Apple hardware.</p>
+
+							<p>It uses an ESP-32 microcontroller, a relay, and a magnetic reed switch to detect the state of the door. This way, even if
+								the manual switch, keypad, or car fobs are used, the device keeps track of the door's state.</p>
+					</div>
+					<div class="col-md-5 d-flex align-items-center justify-content-center">
+						<video width="240" height="320" controls class="featurette-image img-fluid mx-auto">
+							<source src="../images/garage_door.mp4" type="video/mp4">
+							<source src="../images/garage_door.ogg" type="video/ogg">
+							Your browser does not support the video tag.
+						 </video> 
+						
+					</div>
+				</div>
+
+				<hr class="featurette-divider">
 				<div class="row featurette">
 					<div class="col-md-7 order-md-2">
 						<h2 class="featurette-heading">IoT Keychains</h2>
 						<p class="lead">
-							As a member of the Norse IoT club, you are provided with a keychain 
-							designed and manufactured by the club. 
-							This project went from prototype to finished design in 2023, with plans
+							3D modelling for manufacturing is a component of our project work in Norse IoT. We're building devices that need custom cases!</p>
+							<p>As a member of the Norse IoT club, you are provided with a keychain 
+							designed and manufactured by the club. This project went from prototype to finished design in 2023, with plans
 							to expand to more detailed designs in 2024.
 						</p>
 					</div>
@@ -160,14 +181,16 @@
 					<div class="col-md-7">
 						<h2 class="featurette-heading">Humidity Project</h2>
 						<p class="lead">
-							In early 2023, Griffin Hall flooded. Even after the water was cleared, 
-							the building remained too humid to work in. Club Advisor Chris Brewer 
-							and members of n-IoT decided to install humidity sensors in the building to monitor the ongoing situation.
-							Information was visible on an easy to read dashboard containing graphs and data recieved by the sensors.
+							Griffin Hall flooded over the 2022 Christmas break, causing widespread damage. Flooding situations require attention
+						to both temperature and humidity to reduce the likelihood of dangerous mold growth.</p>
+							<p>Club Advisor Chris Brewer 
+							and members of n-IoT quickly built and installed temperature and humidity sensors to monitor the affected areas.
+							Data from the IoT sensors was displayed on a dashboard showing current and historical readings.
 							The project recieved attention from the Dean of the College of Informatics, as well as NKU maintenance,
 							and was <a target="_blank" href="https://www.thenortherner.com/news/2023/02/10/how-norse-iot-club-builds-humidity-sensors-for-griffin-hall">
-							spotlighted by the Northerner in February 2023</a>.
-							The dashboard was shut down after the situation was resolved in Summer 2023.
+							spotlighted by the Northerner in February 2023</a>.<p>
+							<p>The dashboard was repurposed as a teaching platform after the flood was resolved, and has been used in multiple seminars with
+							high school students around the greater Cincinnati region.
 						</p>
 					</div>
 					<div class="col-md-5 d-flex align-items-center justify-content-center">
@@ -181,14 +204,14 @@
 					<div class="col-md-7 order-md-2">
 						<h2 class="featurette-heading">Website Workshops</h2>
 						<p class="lead">
-							In 2022, the club focused on informing NKU students about
-							NKU's personal websites. The club hosted an event that
+							Norse IoT is all about knowledge sharing. So the club focused on training NKU students on hosting personal websites using NKU's webservers.</p>
+							<p>In 2022, the club hosted an Website Workshop event that
 							taught students basic HTML and CSS and provided templates
 							for students to build off and host on an NKU provided personal website.
 						</p>
 					</div>
 					<div class="col-md-5 order-md-1">
-						<img style="height: 58%; object-fit: cover; object-position: top;" class="featurette-image img-fluid mx-auto" src="https://congodsted.com/images/websiteworkshop.png" alt="Flyer advertising the Website Workshop event." width="500">
+						<img style="height: 100%; object-fit: cover; object-position: top;" class="featurette-image img-fluid mx-auto" src="../images/websiteworkshop.png" alt="Flyer advertising the Website Workshop event." width="500">
 					</div>
 				</div>
 				
