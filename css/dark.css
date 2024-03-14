@@ -1,0 +1,30 @@
+:root {
+    --color-primary: #FFC72C;
+    --color-tertiary: white;
+    --color-secondary: black;
+    --body-bg: #1E2129;
+    --text: white;
+    --link: #FFC72C;
+    --link-hover: #6b9fb7;
+    --social-hover: #FFC72C;
+    --divider-color: #b0b0b0;
+    --shadow-color: black;
+    --box-shadow-dark: 0 1rem 3rem rgba(0, 0, 0, .6);
+}
+
+.text-muted {
+    color: #b7b7b7 !important;
+}
+
+.bg-dark .text {
+    color: var(--color-tertiary);
+}
+
+#iot-theme {
+    height: 5.4em;
+
+}
+
+#campusgroups {
+    filter: invert();
+}

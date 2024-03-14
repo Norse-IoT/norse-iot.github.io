@@ -1,0 +1,19 @@
+:root {
+    --color-primary: #FFC72C;
+    --color-secondary: white;
+    --color-tertiary: black;
+    --body-bg: white;
+    --text: #5a5a5a;
+    --link: #015d82;
+    --link-hover: #6b9fb7;
+    --social-hover: #0d0d0d;
+    --divider-color: #5a5a5a;
+    --shadow-color: grey;
+    --box-shadow-dark: 0 1rem 3rem rgba(0, 0, 0, .6);
+}
+
+
+#iot-theme {
+    height: 5.2em;
+
+}

@@ -5,9 +5,31 @@
     --color-primary: #FFC72C;
     --color-secondary: white;
     --color-tertiary: black;
-
     --box-shadow-dark: 0 1rem 3rem rgba(0, 0, 0, .6);
 }
+
+#iot-theme {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--body-bg);
+	filter: drop-shadow(2px 4px 6px var(--shadow-color));
+
+}
+
+body {
+	background-color: var(--body-bg);
+}
+
+
 .officer {
 	align-items: stretch;
 	display: flex;
@@ -53,7 +75,7 @@
 body {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
-	color: #5a5a5a;
+	color: var(--text);
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 300;
  }
@@ -124,6 +146,7 @@ body {
  ------------------------- */
  
  .featurette-divider {
+	color: var(--divider-color);
 	margin: 5rem 0; /* Space out the Bootstrap <hr> more */
  }
  
@@ -161,10 +184,10 @@ body {
  /*NEW CSS*/
  .social {
 	font-size: 28px;
-	color: #5a5a5a;
+	color: var(--text);
 }
 .social:hover, .social:active {
-	color: #0d0d0d;
+	color: var(--social-hover);
 }
 .social-header {
 	color: rgba(255,255,255,.55);
@@ -216,11 +239,11 @@ body {
 	width: 40px;
 	margin-right: 20px;
 }
-.name a, summary {
-	color: #015d82;
+a, summary {
+	color: var(--link);
 }
-.name a:hover {
-	color: #6b9fb7 
+a:hover {
+	color: var(--link-hover) 
 }
 details, summary {
 	display: inline;
@@ -230,12 +253,12 @@ details, summary {
 .social.item svg {
 	width: 28px; 
 	height: 28px; 
-	fill: #5a5a5a;
+	fill: var(--text);
 }
 
 .social svg:hover, .social svg:active {
-	color: #0d0d0d;
-	fill: #0d0d0d !important;
+	color: var(--social-hover);
+	fill: var(--social-hover) !important;
 }
 #join-now-svg {
 	height: 30vh;
@@ -256,11 +279,17 @@ details, summary {
     text-align: center;
     border-radius: 10px;
     justify-content: center;
-	background-color: white;
-	filter: drop-shadow(0px 0px 50px grey);
+	background-color: var(--body-bg);
+	filter: drop-shadow(0px 0px 50px var(--shadow-color));
 	display: flex;
 	flex-direction: column;
 }
 .visible-bio p {
 	padding: 3%;
+}
+
+#looking-to-join {
+	padding-left: 5em;
+	padding-left: 5em;
+
 }

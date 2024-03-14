@@ -20,3 +20,9 @@
 #join-now-svg {
     margin-bottom: 1em;
 }
+
+#looking-to-join {
+	padding-left: unset !important;
+    padding-right: unset !important;
+
+}
