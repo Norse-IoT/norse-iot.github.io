@@ -286,6 +286,14 @@ details, summary {
 }
 .visible-bio p {
 	padding: 3%;
+	text-align: left;
+}
+
+button.close {
+	background-color: transparent;
+	border-color: transparent;
+	font-size: 1.5em !important;
+	color: var(--text);
 }
 
 #looking-to-join {
