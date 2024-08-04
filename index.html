@@ -426,18 +426,76 @@
 			<h2>Current Leadership</h2>
 			<div class="row mt-5">
 				<div class="col-lg-3 officer">
+					<img src="images/president_sargent.jpg" alt="Photo of Zack Sargent">
+					<h2 class="position">President</h2>
+					<span class="name">Zack Sargent</span>
+					<span><a class="email" href="mailto:contact@zack.fyi">contact@zack.fyi</a></span>
+					<button class="btn btn-warning bio-button" onclick="openBio('zack-president-bio')">BIO</button>
+					<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
+				</div>
+				<div id="zack-president-bio" class="hidden-bio">
+
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Zack Sargent</h5>
+						<button type="button" class="close" onclick="closeBio('zack-president-bio')" aria-label="Close">
+							<i class="fa fa-times" aria-hidden="true"></i>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>
+							Zack Sargent is a student at Northern Kentucky University, and an alumni of the INTERalliance Leadership Council. At NKU, he studies Computer Science. Zack leads the Cybersecurity Training division of NKU's Cybersecurity club, NKCyber. Zack is also a member of the Norse IoT Club at NKU, helping students learn the basics of IoT programming. He is passionate about computers and cybersecurity, and has practical work experience from GE and Fifth Third Bank.
+						</p>
+					</div>
+					<div class="modal-footer">
+						<a href="mailto:contact@zack.fyi" class="btn btn-secondary">Contact</a>
+						<button type="button" class="btn btn-secondary" onclick="closeBio('zack-president-bio')">Close</button>
+					  </div>
+				</div>
+				<!-- end .officer -->
+
+				<div class="col-lg-3 officer">
+					<img src="images/vp_milner.jpeg" alt="Photo of Aaron Milner">
+					<h2 class="position">Vice President</h2>
+					<span class="name">Aaron Milner</span>
+					<span><a class="email" href="mailto:MILNERA2@nku.edu">milnera2@nku.edu</a></span>
+					<button class="btn btn-warning bio-button" onclick="openBio('milner-vice-president-bio')">BIO</button>
+					<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
+				</div>
+				<div id="milner-vice-president-bio" class="hidden-bio">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Aaron Milner</h5>
+						<button type="button" class="close" onclick="closeBio('milner-vice-president-bio')" aria-label="Close">
+							<i class="fa fa-times" aria-hidden="true"></i>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>
+							Aaron Milner currently serves as Vice President of the club, and is a freshman studying in the College of Informatics.
+						</p>
+					</div>
+					<div class="modal-footer">
+						<a href="mailto:milnera2@nku.edu" class="btn btn-secondary">Contact</a>
+						<button type="button" class="btn btn-secondary" onclick="closeBio('milner-vice-president-bio')">Close</button>
+					  </div>
+				</div>
+				<!-- end .officer -->
+			</div><!-- end .row -->
+			<h2>Previous Leadership</h2>
+			<!-- Four columns of previous officers -->
+			<div class="row mt-5">
+				<div class="col-lg-3 officer">
 					<img src="images/president_godsted.jpg" alt="Photo of Cassian Godsted">
 					<h2 class="position">President</h2>
 					<span class="name">Cassian Godsted</span>
-					<span><a class="email" href="mailto:cassian@norseiot.club">cassian@norseiot.club</a></span>
-					<button class="btn btn-warning bio-button" onclick="openBio('president-bio')">BIO</button>
+					<span><a class="email" href="mailto:cassian@godsted.com">cassian@godsted.com</a></span>
+					<button class="btn btn-warning bio-button" onclick="openBio('cassian-president-bio')">BIO</button>
 					<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
 				</div>
-				<div id="president-bio" class="hidden-bio">
+				<div id="cassian-president-bio" class="hidden-bio">
 
 					<div class="modal-header">
 						<h5 class="modal-title" id="exampleModalLabel">Cassian Godsted</h5>
-						<button type="button" class="close" onclick="closeBio('president-bio')" aria-label="Close">
+						<button type="button" class="close" onclick="closeBio('cassian-president-bio')" aria-label="Close">
 							<i class="fa fa-times" aria-hidden="true"></i>
 						</button>
 					</div>
@@ -450,13 +508,12 @@
 							including web development, data analysis, laptop automation and more. At NKU,
 							they study Computer Information Technology, and assists with day-to-day operations 
 							and event planning for the College of Informatics as a student worker. 
-							Cassian is also President of the Norse IoT Club at NKU, helping students learn the basics of IoT programming. 
-							Cassian also served as Vice President of the club from 2022-2023.
+							Cassian served as President of the Norse IoT Club at NKU from 2023-2024, and Vice President from 2022-2023.
 						</p>
 					</div>
 					<div class="modal-footer">
-						<a href="mailto:cassian@norseiot.club" class="btn btn-secondary">Contact</a>
-						<button type="button" class="btn btn-secondary" onclick="closeBio('president-bio')">Close</button>
+						<a href="mailto:cassian@godsted.com" class="btn btn-secondary">Contact</a>
+						<button type="button" class="btn btn-secondary" onclick="closeBio('cassian-president-bio')">Close</button>
 					  </div>
 				</div>
 				<!-- end .officer -->
@@ -466,13 +523,13 @@
 					<h2 class="position">Vice President</h2>
 					<span class="name">Riley Weber-Horowitz</span>
 					<span><a class="email" href="mailto:riley@norseiot.club">riley@norseiot.club</a></span>
-					<button class="btn btn-warning bio-button" onclick="openBio('vice-president-bio')">BIO</button>
+					<button class="btn btn-warning bio-button" onclick="openBio('riley-vice-president-bio')">BIO</button>
 					<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
 				</div>
-				<div id="vice-president-bio" class="hidden-bio">
+				<div id="riley-vice-president-bio" class="hidden-bio">
 					<div class="modal-header">
 						<h5 class="modal-title" id="exampleModalLabel">Riley Weber-Horowitz</h5>
-						<button type="button" class="close" onclick="closeBio('vice-president-bio')" aria-label="Close">
+						<button type="button" class="close" onclick="closeBio('riley-vice-president-bio')" aria-label="Close">
 							<i class="fa fa-times" aria-hidden="true"></i>
 						</button>
 					</div>
@@ -481,13 +538,12 @@
 							Riley Weber-Horowitz is a student worker for NKU's College of Informatics. 
 							At NKU, she studies Public Relations and 3D Digital Effects, and she assists with social media,
 							 graphic design, and event planning for the College of Informatics as a student worker. Riley 
-							 is also Vice President of the Norse IoT Club at NKU, helping students learn the basics of IoT 
-							 programming.
+							 was Vice President of the Norse IoT Club at NKU from 2023-2024.
 						</p>
 					</div>
 					<div class="modal-footer">
 						<a href="mailto:riley@norseiot.club" class="btn btn-secondary">Contact</a>
-						<button type="button" class="btn btn-secondary" onclick="closeBio('vice-president-bio')">Close</button>
+						<button type="button" class="btn btn-secondary" onclick="closeBio('riley-vice-president-bio')">Close</button>
 					  </div>
 				</div>
 				<!-- end .officer -->
@@ -508,7 +564,7 @@
 
 					</div>
 					<div class="modal-body">
-						<p>Kristoffe Wilson currently serves as both secretary and treasurer of the club, and is a senior studying Data Science and Statistics.</p>
+						<p>Kristoffe Wilson served as both secretary and treasurer of the club from 2023-2024, and is a senior studying Data Science and Statistics.</p>
 
 					</div>
 					<div class="modal-footer">
@@ -517,93 +573,90 @@
 					  </div>
 				</div>
 				<!-- end .officer -->
-			</div><!-- end .row -->
-			<h2>Previous Leadership</h2>
-			<!-- Four columns of previous officers -->
-			<div class="row mt-5">
-				<div class="col-lg-3 officer">
-					<img src="images/president_muscara.jpg" alt="Photo of Kevin Muscara">
-					<h2 class="position">2022 President</h2>
-					<span class="name">Kevin Muscara</span>
-					<span><a class="email" href="mailto:muscararak1@nku.edu">muscarak1@nku.edu</a></span>
-					<button class="btn btn-warning bio-button" onclick="openBio('kevin-president-bio')">BIO</button>
-					<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
+			
+			<div class="col-lg-3 officer">
+				<img src="images/president_muscara.jpg" alt="Photo of Kevin Muscara">
+				<h2 class="position">2022 President</h2>
+				<span class="name">Kevin Muscara</span>
+				<span><a class="email" href="mailto:muscararak1@nku.edu">muscarak1@nku.edu</a></span>
+				<button class="btn btn-warning bio-button" onclick="openBio('kevin-president-bio')">BIO</button>
+				<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
+			</div>
+			<div id="kevin-president-bio" class="hidden-bio">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Kevin Muscara</h5>
+					<button type="button" class="close" onclick="closeBio('kevin-president-bio')" aria-label="Close">
+						<i class="fa fa-times" aria-hidden="true"></i>
+					</button>
 				</div>
-				<div id="kevin-president-bio" class="hidden-bio">
-					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel">Kevin Muscara</h5>
-						<button type="button" class="close" onclick="closeBio('kevin-president-bio')" aria-label="Close">
-							<i class="fa fa-times" aria-hidden="true"></i>
-						</button>
-					</div>
-					<div class="modal-body">
-						<p>
-							Kevin Muscara was president from 2022-2023 and is currently a sophomore studying Applied Software Engineering.
-						</p>
-					</div>
-					<div class="modal-footer">
-						<a href="muscarak1@nku.edu" class="btn btn-secondary">Contact</a>
-						<button type="button" class="btn btn-secondary" onclick="closeBio('kevin-president-bio')">Close</button>
-					  </div>
+				<div class="modal-body">
+					<p>
+						Kevin Muscara was president from 2022-2023 and is currently a sophomore studying Applied Software Engineering.
+					</p>
 				</div>
-				<!-- end .officer -->
-				<div class="col-lg-3 officer">
-					<img src="images/president_klaene.jpg" alt="Photo of Nick Klaene">
-					<h2 class="position">2021 President</h2>
-					<span class="name">Nick Klaene</span>
-					<button class="btn btn-warning bio-button" onclick="openBio('nick-president-bio')">BIO</button>
-					<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
+				<div class="modal-footer">
+					<a href="muscarak1@nku.edu" class="btn btn-secondary">Contact</a>
+					<button type="button" class="btn btn-secondary" onclick="closeBio('kevin-president-bio')">Close</button>
+				  </div>
+			</div>
+			<!-- end .officer -->
+			<div class="col-lg-3 officer">
+				<img src="images/president_klaene.jpg" alt="Photo of Nick Klaene">
+				<h2 class="position">2021 President</h2>
+				<span class="name">Nick Klaene</span>
+				<button class="btn btn-warning bio-button" onclick="openBio('nick-president-bio')">BIO</button>
+				<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
+			</div>
+			<div id="nick-president-bio" class="hidden-bio">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Nick Klaene</h5>
+					<button type="button" class="close" onclick="closeBio('nick-president-bio')" aria-label="Close">
+						<i class="fa fa-times" aria-hidden="true"></i>
+					</button>
 				</div>
-				<div id="nick-president-bio" class="hidden-bio">
-					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel">Nick Klaene</h5>
-						<button type="button" class="close" onclick="closeBio('nick-president-bio')" aria-label="Close">
-							<i class="fa fa-times" aria-hidden="true"></i>
-						</button>
-					</div>
-					<div class="modal-body">
-						<p>
-							Nick Klaene was the founding 
-							president of the club and served from 2021-2022. He studied Computer Science and Mathematics and 
-							was a student worker in the Informatics+ department at NKU. Nick completed his final internship as an AWS 
-							Software Development Engineer at Amazon in Seattle the summer of 2022, 
-							and relocated to Seattle to join Amazon following his December 2022 
-							graduation.
-						</p>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" onclick="closeBio('nick-president-bio')">Close</button>
-					  </div>
+				<div class="modal-body">
+					<p>
+						Nick Klaene was the founding 
+						president of the club and served from 2021-2022. He studied Computer Science and Mathematics and 
+						was a student worker in the Informatics+ department at NKU. Nick completed his final internship as an AWS 
+						Software Development Engineer at Amazon in Seattle the summer of 2022, 
+						and relocated to Seattle to join Amazon following his December 2022 
+						graduation.
+					</p>
 				</div>
-				<!-- end .officer -->
-				<div class="col-lg-3 officer">
-					<img src="images/vp_makunga.jpg" alt="Photo of Jonathan Makunga">
-					<h2 class="position">2021 Vice President</h2>
-					<span class="name">Jonathan Makunga</span>
-					<button class="btn btn-warning bio-button" onclick="openBio('jonathan-vp-bio')">BIO</button>
-					<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" onclick="closeBio('nick-president-bio')">Close</button>
+				  </div>
+			</div>
+			<!-- end .officer -->
+			<div class="col-lg-3 officer">
+				<img src="images/vp_makunga.jpg" alt="Photo of Jonathan Makunga">
+				<h2 class="position">2021 Vice President</h2>
+				<span class="name">Jonathan Makunga</span>
+				<button class="btn btn-warning bio-button" onclick="openBio('jonathan-vp-bio')">BIO</button>
+				<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
+			</div>
+			<div id="jonathan-vp-bio" class="hidden-bio">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Jonathan Makunga</h5>
+					<button type="button" class="close" onclick="closeBio('jonathan-vp-bio')" aria-label="Close">
+						<i class="fa fa-times" aria-hidden="true"></i>
+					</button>
 				</div>
-				<div id="jonathan-vp-bio" class="hidden-bio">
-					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel">Jonathan Makunga</h5>
-						<button type="button" class="close" onclick="closeBio('jonathan-vp-bio')" aria-label="Close">
-							<i class="fa fa-times" aria-hidden="true"></i>
-						</button>
-					</div>
-					<div class="modal-body">
-						<p>
-							Jonathan Makunga was the founding vice president of the club and served from 2021-2022. He studied 
-							Information Technology with a minor in Computer Science, and worked at Informatics+ during his time
-							at NKU. After graduating in May 2022, he joined Amazon in Seattle as a 
-							AWS Software Engineer.
-						</p>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" onclick="closeBio('jonathan-vp-bio')">Close</button>
-					  </div>									
+				<div class="modal-body">
+					<p>
+						Jonathan Makunga was the founding vice president of the club and served from 2021-2022. He studied 
+						Information Technology with a minor in Computer Science, and worked at Informatics+ during his time
+						at NKU. After graduating in May 2022, he joined Amazon in Seattle as a 
+						AWS Software Engineer.
+					</p>
 				</div>
-				<!-- end .officer -->
-			</div><!-- end .row -->
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" onclick="closeBio('jonathan-vp-bio')">Close</button>
+				  </div>									
+			</div>
+			<!-- end .officer -->
+		</div><!-- end .row -->
 		</div><!-- end #officers -->
 		<hr class="featurette-divider">
 	</main>
