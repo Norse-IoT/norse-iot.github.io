@@ -301,3 +301,32 @@ button.close {
 	padding-left: 5em;
 
 }
+
+#audio {
+	border: var(--audio-border-color) solid 1px;
+	display: flex;
+	border-radius: 15px;
+	padding: 1rem;
+}
+
+#audio #mini-player {
+	width: 100%;
+}
+
+#audio #mini-player span {
+	color: var(--color-primary);
+}
+
+#audio audio {
+	margin-top: .5em;
+}
+
+#audio img {
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 30%;
+	height: fit-content;
+	border-radius: 15px;
+	margin-right: 1em;
+
+}
