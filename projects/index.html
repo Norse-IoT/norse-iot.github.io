@@ -131,7 +131,7 @@
 			</nav>
 		</header>
 
-		<main id="top">
+		<main id="top" style="margin-top:5rem;">
 			<!-- Marketing messaging and featurettes
 			================================================== -->
 			<!-- Wrap the rest of the page in another container to center all the content. -->
@@ -141,7 +141,7 @@
 				<!-- START THE FEATURETTES -->
 
 				<div class="row featurette">
-					<div class="col-md-7 my-5">
+					<div class="col-md-8">
 						<h2 class="featurette-heading">Automatic Cat Feeder</h2>
 						<p class="lead">
 							We made an automatic cat feeder for the cats of NKU!</p>
@@ -150,8 +150,8 @@
 							cats to find food, so we made an automatic cat feeder. Read more <a href="https://zack.fyi/blog/cat-feeder/">here</a>.
 						</p>
 					</div>
-					<div class="col-md-5">
-						<img src="../images/cat-feeder.jpg" height="320">
+					<div class="col-md-3">
+						<img src="../images/cat-feeder.jpg" style="margin-left:auto;margin-right:auto;display:block" class="featurette-image img-fluid mx-auto">
 					</div>
 				</div>	
 				
@@ -164,18 +164,20 @@
 							We made a lightshow for the TANK bus in the BLINK 2024 parade!</p>
 							<p>In collaboration with NKU's <a href="https://www.nku.edu/academics/artsci/about/SchoolOfTheArts.html">SOTA</a>, 
 							we were tasked with creating a lightshow for a <a href="https://www.tankbus.org/">TANK</a> bus as part of the biennial 
-							<a href="https://www.blinkcincinnati.com/">BLINK</a> parade.
+							<a href="https://www.blinkcincinnati.com/">BLINK</a> parade. Our design used an array of lightstrips on both sides
+							controlled by a Light-O-Rama controller sequenced by <a href="https://github.com/FalconChristmas/fpp">Falcon player</a> 
+							on a Raspberry Pi, complete with a 5-minute long lightshow made using <a href="https://xlights.org/">xLights</a>.
 						</p>
 					</div>
 					<div class="col-md-5">
-						<img src="../images/blinktank.jpg" width="500">
+						<img class="featurette-image img-fluid mx-auto" style="height: 100%; object-fit: cover; object-position: top;" src="../images/blinktank.jpg" width="">
 					</div>
 				</div>	
 
 				<hr class="featurette-divider">
 
 				<div class="row featurette">
-					<div class="col-md-7">
+					<div class="col-md-7 my-5">
 						<h2 class="featurette-heading">Smart Garage Doors</h2>
 						<p class="lead">
 							This prototype device turns *any* garage door opener into a smart home device. It is configured using a captive portal to join 
