@@ -1,0 +1,8 @@
+
+<li class="nav-item">
+    <a id="{{include.href | slugify}}" class="nav-link 
+    {% if page.permalink == include.href %}
+    active
+    {%-endif-%}
+    " href="{{include.href}}">{{include.name}}</a>
+</li>

@@ -10,18 +10,22 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/#top">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/projects/">Project Showcase</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/#officers">Officers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://wiki.norseiot.club">Wiki</a>
-                    </li>
+                    {%- include header-link.html
+                        href="/"
+                        name = "Home"
+                    -%}
+                    {%- include header-link.html
+                        href="/projects/"
+                        name = "Project Showcase"
+                    -%}
+                    {%- include header-link.html
+                        href="/officers/"
+                        name = "Officers"
+                    -%}
+                    {%- include header-link.html
+                        href="https://wiki.norseiot.club"
+                        name = "Wiki"
+                    -%}
                     <!--<li class="nav-item">
                         <a class="nav-link disabled">Disabled</a>
                     </li>-->
