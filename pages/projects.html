@@ -15,27 +15,19 @@ permalink: /Projects/
 
 		<hr class="featurette-divider">
 
-		<div class="row featurette">
-			<div class="col-md-7 order-md-2">
-				<h2 class="featurette-heading">Websocket Workshops</h2>
-				<p class="lead">
-					We taught students how to wire microcontrollers!
-				</p>
-				<p>
-					Members of the Norse IoT Club walked students at TSA and <a
-						href="https://techolympics.org/">TechOlympics 2025</a>
-					through building a Wi-Fi enabled game controller. We documented the event <a
-						href="https://wiki.norseiot.club/projects/techolympics25/">on our Wiki</a>.
-				</p>
-			</div>
-			<div class="col-md-5">
-				<img class="featurette-image img-fluid mx-auto"
-					style="height: 100%; object-fit: cover; object-position: top;" src="/images/blinktank.avif"
-					width="">
-			</div>
-		</div>
-
-		<hr class="featurette-divider">
+		{%- include project.html
+			title = "Websocket Workshops"
+			lead = "We taught students how to wire microcntrollers!"
+			desc = "Members of the Norse IoT Club walked students at TSA and <a
+			href='https://techolympics.org/'>TechOlympics 2025</a>
+		through building a Wi-Fi enabled game controller. We documented the event <a
+			href='https://wiki.norseiot.club/projects/techolympics25/'>on our Wiki</a>."
+			image = "/images/websockets.avif"
+			image-align = "right"
+			image-style = "margin-left:auto;margin-right:auto;display:block"
+			image-size = "5"
+			text-size = 7
+		-%}
 
 
 		{%- include project.html
@@ -49,6 +41,7 @@ permalink: /Projects/
 		image-align = "right"
 		image-style = "margin-left:auto;margin-right:auto;display:block"
 		image-size = "5"
+		text-size = 7
 		-%}
 
 		{%- include project.html
@@ -67,35 +60,31 @@ permalink: /Projects/
 			image = "/images/blinktank.avif"
 			image-align = "right"
 			image-style = "height: 100%; object-fit: cover; object-position: top;"
-			image-size = "7"
+			image-size = 7
+			text-size = 5
 	
 			-%}
 
-		<div class="row featurette">
-			<div class="col-md-7 my-5">
-				<h2 class="featurette-heading">Smart Garage Doors</h2>
-				<p class="lead">
-					This prototype device turns *any* garage door opener into a smart home device. It is configured
-					using a captive portal to join
-					the local Wi-Fi, and is automatically added to Apple's Home.app. It is controllable remotely, using
-					the Home app or Siri,
-					on any Apple hardware.</p>
+		{%- include project-custom.html
+			title = ""
+			lead = "This prototype device turns *any* garage door opener into a smart home device. It is configured
+			using a captive portal to join
+			the local Wi-Fi, and is automatically added to Apple's Home.app. It is controllable remotely, using
+			the Home app or Siri,
+			on any Apple hardware."
+			desc = "It uses an ESP-32 microcontroller, a relay, and a magnetic reed switch to detect the state of the
+			door. This way, even if
+			the manual switch, keypad, or car fobs are used, the device keeps track of the door's state."
+			image-align = "right"
+			side-content = "<video width='240' height='320' controls class='featurette-image img-fluid mx-auto'>
+				<source src='../images/garage_door.mp4' type='video/mp4'>
+				<source src='../images/garage_door.ogg' type='video/ogg'>
+				Your browser does not support the video tag.
+			</video>"
+			image-size = 5
+			text-size = 7
+		-%}
 
-				<p>It uses an ESP-32 microcontroller, a relay, and a magnetic reed switch to detect the state of the
-					door. This way, even if
-					the manual switch, keypad, or car fobs are used, the device keeps track of the door's state.</p>
-			</div>
-			<div class="col-md-5 d-flex align-items-center justify-content-center">
-				<video width="240" height="320" controls class="featurette-image img-fluid mx-auto">
-					<source src="../images/garage_door.mp4" type="video/mp4">
-					<source src="../images/garage_door.ogg" type="video/ogg">
-					Your browser does not support the video tag.
-				</video>
-
-			</div>
-		</div>
-
-		<hr class="featurette-divider">
 		<div class="row featurette">
 			<div class="col-md-7 order-md-2">
 				<h2 class="featurette-heading">IoT Keychains</h2>
