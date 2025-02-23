@@ -21,11 +21,6 @@
     color: var(--color-tertiary);
 }
 
-#iot-theme {
-    height: 5.4em;
-
-}
-
 #campusgroups {
     filter: invert();
 }
