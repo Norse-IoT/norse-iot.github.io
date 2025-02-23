@@ -1,0 +1,27 @@
+<div class="col-lg-3 officer">
+    <img src="{{include.img}}" alt="Photo of {{include.name}}">
+    <h2 class="position">{{include.position}}</h2>
+    <span class="name">{{include.name}}</span>
+    <span><a class="email" href="mailto:{{include.email}}">{{include.email}}</a></span>
+    <button class="btn btn-warning bio-button" onclick="openBio('{{include.name | slugify}}-bio')">BIO</button>
+    <!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
+</div>
+<div id="{{include.name | slugify}}-bio" class="hidden-bio">
+
+    <div class="modal-header">
+        <h5 class="modal-title" id="{{include.name | slugify}}-label">{{include.name}}</h5>
+        <button type="button" class="close" onclick="closeBio('{{include.name | slugify}}-bio')" aria-label="Close">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </button>
+    </div>
+    <div class="modal-body">
+        <p>
+            {{include.bio}}
+        </p>
+    </div>
+    <div class="modal-footer">
+        <a href="mailto:{{include.email}}" class="btn btn-secondary">Contact</a>
+        <button type="button" class="btn btn-secondary"
+            onclick="closeBio('{{include.name | slugify}}-bio')">Close</button>
+    </div>
+</div>

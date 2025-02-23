@@ -1,0 +1,402 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+---
+
+<main id="top">
+	<div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-interval="7000" data-pause="hover">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"
+				aria-current="true"></button>
+			<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+				class=""></button>
+			<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="animate__animated animate__rubberBand bgimage"
+					style="background-image: url(images/esp-32.avif);background-size: contain;"></div>
+				<div class="container">
+					<div class="carousel-caption bg animate__animated animate__flipInX animate__delay-1s">
+						<h1 class="carousel-caption-text">These are not centipedes.</h1>
+						<p class="carousel-caption-text">Microcontrollers like these allow you build, well, whatever
+							you want!</p>
+						<!--<p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>-->
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="bgimage" style="background-image: url(images/wled.gif);background-size: cover;"></div>
+				<div class="container">
+					<div class="bg carousel-caption animate__animated animate__flipInY animate__delay-1s">
+						<h1 class="carousel-caption-text">Whatever I want?</h1>
+						<p class="carousel-caption-text">From smart lights to smart homes, microcontrollers are
+							powerful friends.</p>
+						<!--<p><a class="btn btn-lg btn-primary" href="https://nku.campusgroups.com/IoT/club_signup">Sign up today</a></p>-->
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="animate__animated animate__zoomInDown bgimage"
+					style="background-image: url(images/LED_blink_320.gif);background-size: contain;background-repeat: no-repeat;background-color: #11100d;">
+				</div>
+				<div class="container">
+					<div class="carousel-caption animate__animated animate__flipInX animate__delay-1s">
+						<h1 class="carousel-caption-text">Green light. Go!</h1>
+						<p class="carousel-caption-text">The knowledge and skills you'll gain in this club will turn
+							your career traffic lights green. </p>
+						<!--<p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div><!-- end #myCarousel -->
+
+	<!-- Marketing messaging and featurettes
+		================================================== -->
+	<!-- Wrap the rest of the page in another container to center all the content. -->
+	<div class="container marketing" id="mission">
+		<div class="row text-center row d-flex justify-content-center">
+			<div class="col-3">
+				<a href="https://nku.campusgroups.com/IoT/club_signup" class="btn btn-warning">Join Now!</a>
+			</div>
+		</div>
+		<hr class="mt-4 mb-4">
+		<!-- START THE FEATURETTES -->
+
+		<div class="row featurette">
+			<div class="col-md-7 order-md-2">
+				<h2 class="featurette-heading">Our club's mission</h2>
+				<p class="lead">The Norse IoT club is focused on student-led
+					research and projects concerning Internet of Things devices and
+					applications. We hope to foster a community for students, faculty,
+					alumni, and industry professionals who are enthusiastic about the
+					opportunities IoT has to offer.
+				</p>
+				<p>The purpose and objectives of the club are to:</p>
+				<ul>
+					<li>Share knowledge and ideas among students, faculty, and industry.</li>
+					<li>Establish a playground for IoT &amp; Industry 4.0.</li>
+					<li>Develop skills outside of the standard university curriculum.</li>
+					<li>Foster an innovative and entrepreneurial environment.</li>
+					<li>Partner with industry pros working on real-world practical projects.</li>
+					<li>Create an environment for work, tinkering &amp; socializing.</li>
+				</ul>
+				<div><span style="display: block;">Club members will perform hands-on projects with a variety of
+						technologies, such as </span>
+					<details>
+						<summary>microcontrollers </summary> (ESP-32)
+					</details>,
+					<details>
+						<summary>sensors</summary> (LIDAR, ultrasonic, infrared, temperature, humidity, etc.)
+					</details>,
+					<details>
+						<summary>networks</summary> (Wi-Fi, Bluetooth, LoRa)
+					</details>,
+					<details>
+						<summary>motion</summary> (motors, servos)
+					</details>,
+					and
+					<details>
+						<summary>visual displays</summary> (TFT, OLED, LED, electrochromic)
+					</details>.
+
+				</div>
+				<p></p>
+
+				<p>Students from all courses of study at NKU are welcome, no technical experience required.
+					The club prioritizes projects that are transdisciplinary, because IoT
+					touches every aspect of life.
+				</p>
+			</div>
+			<div class="col-md-5 order-md-1">
+				<img class="featurette-image img-fluid mx-auto" src="images/sensors.avif"
+					alt="A collection of sensors and a screen shot of code in Arduino" width="500">
+			</div>
+		</div>
+
+
+
+		<hr class="featurette-divider" id="info">
+
+		<div class="row featurette">
+			<div class="col-md-7">
+				<h2 class="featurette-heading">Learn in-demand skills. <span class="text-muted">In a chill,
+						peer-driven setting.</span></h2>
+				<p class="lead">Learning about IoT and working on projects ties all
+					the knowledge you've gained as a student together. IoT projects can
+					involve coding, networking, electrical engineering,
+					3D design, databases, cloud services, UI, and more.
+					In Norse IoT, you'll work side by side with other students, as you
+					explore the techology you'll use to build the projects only you can
+					dream up.
+				</p>
+			</div>
+			<div class="col-md-5 d-flex align-items-center justify-content-center">
+				<img class="featurette-image img-fluid mx-auto" src="images/chill.gif" alt="A child screaming"
+					width="500">
+			</div>
+		</div>
+
+		<hr class="featurette-divider">
+
+		<div class="row featurette">
+			<div class="col-md-7 order-md-2">
+				<h2 class="featurette-heading">Build your network. <span class="text-muted">And build your
+						network.</span></h2>
+				<p class="lead">Connectedness matters, to people and digital
+					devices. In n-IoT, you'll gain skills working with other people, while
+					the devices you build learn to work with other devices. In both cases,
+					the information shared makes the network better.
+				</p>
+			</div>
+			<div class="col-md-5 order-md-1">
+				<img class="featurette-image img-fluid mx-auto" src="images/fractal.gif"
+					alt="An ESP-32 display displaying a ring spinning." width="500">
+			</div>
+		</div>
+
+		<hr class="featurette-divider">
+		<div class="row featurette d-flex align-items-center justify-content-center">
+
+			<div class="col-md-7">
+				<h2 class="featurette-heading">What will you create? <span class="text-muted">Let's find out.</span>
+				</h2>
+				<p class="lead">
+					The Norse IoT Club meets every Monday at 5pm in Griffin Hall 346.
+					Projects can be as varied as imagination allows, as
+					n-IoT strives to be a place where students can develop
+					new skills, no prior experience necessary!
+			</div>
+			<div class="col-md-5 d-flex align-items-center justify-content-center">
+				<img class="featurette-image img-fluid mx-auto" src="images/meeting.avif"
+					alt="A photo from a Norse IoT club meeting." width="500">
+			</div>
+
+		</div>
+
+		<hr class="featurette-divider">
+		<div id="smart-people" class="row featurette d-flex align-items-center justify-content-center">
+			<div class="col-md-5 d-flex align-items-center justify-content-center">
+				<img class="featurette-image img-fluid mx-auto" src="images/banana-iot.gif"
+					alt="A banana with a computer attached" width="500">
+			</div>
+			<div class="col-md-7">
+				<h2 class="featurette-heading">Smart people make dumb things smart. <span
+						class="text-muted">Checkmate.</span></h2>
+				<p class="lead">IoT is at the forefront of the 4th industrial
+					revolution. It's changing everything, from manufacturing and supply
+					chain to consumer products like smart cars, solar panels, smart bulbs,
+					and thermostats. But without smart people, these are just dumb devices.
+					Just ask Siri. Or Alexa.
+				</p>
+			</div>
+		</div>
+
+		<hr class="featurette-divider">
+
+		<div class="row featurette">
+			<div class="col-md-6">
+				<h2 class="featurette-heading">Listen In. <span class="text-muted">We're making waves.</span></h2>
+				<p class="lead">
+					From our appearance on Informatics Cafe to
+					<a target="_blank"
+						href="https://www.thenortherner.com/news/2023/02/10/how-norse-iot-club-builds-humidity-sensors-for-griffin-hall/#">
+						our profile in NKU's own The Northerner</a>,
+					Norse IoT is changing this school.
+					The question is, will you be
+					there to help make it happen?
+				</p>
+			</div>
+			<div class="col-md-6 align-items-center justify-content-center">
+				<div id="audio">
+					<div style="display: flex;">
+						<img src="/cafe/file.avif" alt="">
+						<div id="mini-player">
+							<h3>Norse IoT Club: Making the Future </h3>
+							<span>Informatics Cafe - A Taste of Informatics</span>
+							<audio class="desktop" controls src="/cafe/chbj7i7hkr5b067mj8j5ijzis8b2.mp3"></audio>
+						</div>
+					</div>
+					<audio class="mobile" controls src="/cafe/chbj7i7hkr5b067mj8j5ijzis8b2.mp3"></audio>
+				</div>
+			</div>
+
+		</div>
+
+
+
+		<!-- /END THE FEATURETTES -->
+	</div><!-- end #mission -->
+
+
+	<div class="container-fluid text-center bg-dark" id="cta">
+		<div class="col-md-5 p-lg-5 mx-auto my-5" style="width: 55%;">
+			<div class="flex">
+				<div>
+					{%- include logo.html id="join-now-svg" -%}
+				</div>
+				<div id="looking-to-join" class="text">
+					<p>
+						Looking to join?
+					</p>
+					<p>
+						Norse IoT meets every Monday at 5pm in GH 346. The club room is open to members 24/7.
+					</p>
+					<p>
+						You'll find more info in our <a target="_blank"
+							href="https://nku.campusgroups.com/feeds?type=club&type_id=35576&tab=home">CampusGroups</a>
+						and <a target="_blank" href="https://discord.gg/H5FjtpE3pH">Discord</a>, so join now and
+						start building
+						your connected future today!
+					</p>
+
+				</div>
+			</div>
+			<a class="btn btn-outline-warning join-now" href="https://nku.campusgroups.com/IoT/club_signup">Join
+				Now!</a>
+
+		</div>
+		<div class="product-device shadow-sm d-none d-md-block"></div>
+		<div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+	</div><!-- end #cta -->
+
+	<div class="container marketing" id="officers">
+		<!-- Four columns of officers -->
+		<h2>Current Leadership</h2>
+		<div class="row mt-5">
+			{%- include officer.html
+				name = "Zack Sargent"
+				position = "President"
+				img = "images/president_sargent.avif"
+				email = "contact@zack.fyi"
+				bio = "Zack Sargent is the current President of the Norse IoT Club. At NKU, he studies Computer
+				Science. Zack also leads the Cybersecurity Training division of NKU's Cybersecurity club,
+				NKCyber. He is passionate about computers and cybersecurity, and has practical work
+				experience from GE and Fifth Third Bank."
+			-%}
+
+			{%- include officer.html
+				name = "Aaron Milner"
+				position = "Vice President"
+				img = "images/vp_milner.avif"
+				email = "milnera2@nku.edu"
+				bio = "Aaron Milner currently serves as Vice President of the club, and is a freshman studying in
+				the College of Informatics."
+			-%}
+
+			{%- include officer.html
+				name = "Samuel Lunnemann"
+				position = "Secretary"
+				img = "images/sec_lunnemann.avif"
+				email = "LUNNEMANNS1@nku.edu"
+				bio = "Samuel Lunnemann currently serves as Secretary of the club, and is a freshman studying in
+				the College of Informatics."
+			-%}
+		</div><!-- end .row -->
+		<h2>2023-2024 Leadership</h2>
+		<!-- Four columns of previous officers -->
+		<div class="row mt-5">
+			{%- include officer.html
+				name = "Cassian Godsted"
+				position = "President"
+				img = "images/president_godsted.avif"
+				email = "cassian@godsted.com"
+				bio = "Cassian Godsted is a web developer and event coordinator,
+				with internships at the INTERalliance of Greater Cincinnati and
+				Northern Kentucky University's College of Informatics. As an intern,
+				Cassian manages all aspects of INTERalliance's IT needs throughout the year,
+				including web development, data analysis, laptop automation and more. At NKU,
+				they study Computer Information Technology, and assists with day-to-day operations
+				and event planning for the College of Informatics as a student worker.
+				Cassian served as President of the Norse IoT Club at NKU from 2023-2024, and Vice President
+				from 2022-2023."
+			-%}
+
+			{%- include officer.html
+				name = "Riley Weber-Horowitz"
+				position = "Vice President"
+				img = "images/vp_weberhorowitz.avif"
+				email = "riley@norseiot.club"
+				bio = "Riley Weber-Horowitz is a student worker for NKU's College of Informatics.
+				At NKU, she studies Public Relations and 3D Digital Effects, and she assists with social
+				media,
+				graphic design, and event planning for the College of Informatics as a student worker. Riley
+				was Vice President of the Norse IoT Club at NKU from 2023-2024."
+			-%}
+
+			{%- include officer.html
+				name = "Kristoffe Wilson"
+				position = "Secretary/Treasurer"
+				img = "images/sec_wilson.avif"
+				email = "wilsonk45@nku.edu"
+				bio = "Kristoffe Wilson served as both secretary and treasurer of the club from 2023-2024, and is a
+				senior studying Data Science and Statistics."
+			-%}			
+		</div>
+		<h2>2022-2023 Leadership</h2>
+		<div class="row mt-5">
+			{%- include officer.html
+				name = "Kevin Muscara"
+				position = "President"
+				img = "images/president_muscara.avif"
+				email = "muscararak1@nku.edu"
+				bio = "Kevin Muscara was president from 2022-2023 and is currently a sophomore studying Applied
+				Software Engineering."
+			-%}
+			{%- include officer.html
+				name = "Cassian Godsted"
+				position = "Vice President"
+				img = "images/president_godsted.avif"
+				email = "cassian@godsted.com"
+				bio = "Cassian Godsted is a web developer and event coordinator,
+				with internships at the INTERalliance of Greater Cincinnati and
+				Northern Kentucky University's College of Informatics. As an intern,
+				Cassian manages all aspects of INTERalliance's IT needs throughout the year,
+				including web development, data analysis, laptop automation and more. At NKU,
+				they study Computer Information Technology, and assists with day-to-day operations
+				and event planning for the College of Informatics as a student worker.
+				Cassian served as President of the Norse IoT Club at NKU from 2023-2024, and Vice President
+				from 2022-2023."
+			-%}
+		</div>
+		<h2>2021-2022 Leadership</h2>
+		<div class="row mt-5">
+			{%- include officer.html
+				name = "Nick Klaene"
+				position = "President"
+				img = "images/president_klaene.avif"
+				email = "muscararak1@nku.edu"
+				bio = "Nick Klaene was the founding
+				president of the club and served from 2021-2022. He studied Computer Science and Mathematics
+				and was a student worker in the Informatics+ department at NKU. Nick completed his final
+				internship as an AWS Software Development Engineer at Amazon in Seattle the summer of 2022,
+				and relocated to Seattle to join Amazon following his December 2022 graduation."
+			-%}
+
+			{%- include officer.html
+				name = "Jonathan Makunga"
+				position = "Vice President"
+				img = "images/vp_makunga.avif"
+				email = "muscararak1@nku.edu"
+				bio = "Jonathan Makunga was the founding vice president of the club and served from 2021-2022. He
+				studied Information Technology with a minor in Computer Science, and worked at Informatics+ during
+				his time at NKU. After graduating in May 2022, he joined Amazon in Seattle as a
+				AWS Software Engineer."
+			-%}
+		</div>
+			<!-- end .officer -->
+		</div><!-- end .row -->
+	</div><!-- end #officers -->
+	<hr class="featurette-divider">
+</main>

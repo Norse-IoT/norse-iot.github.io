@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Norse IoT club is focused on student-led research and projects concerning Internet of Things devices and applications. We hope to foster a community for students, faculty, alumni, and industry professionals who are enthusiastic about the opportunities IoT has to offer. ">
+    <meta name="author" content="Chris Brewer, Jonathan Makunga, Cassian Godsted">
+    <title>Norse IoT Club (n-IoT)</title>
+    <link href="/css/animate.min.css" rel="stylesheet">
+    <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin="anonymous">
+    <link href="/css/css2.css" rel="stylesheet">
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/desktop.css" rel="stylesheet" media="(min-width: 671px)">
+    <link href="/css/mobile.css" rel="stylesheet" media="(max-width: 670px)">
+    <link href="/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="/css/index.css" rel="stylesheet">
+    <link href="/css/projects.css" rel="stylesheet" >
+    <link rel="stylesheet" id="theme">
+    <link href="/favicon.png" rel="shortcut icon" type="image/x-icon">
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/#top">
+                    {%include logo.html%}
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/#top">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/projects/">Project Showcase</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/#officers">Officers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://wiki.norseiot.club">Wiki</a>
+                        </li>
+                        <!--<li class="nav-item">
+							<a class="nav-link disabled">Disabled</a>
+						</li>-->
+                        <!--
+						<li class="nav-item">
+							<a class="social-header" target="_blank" href="https://github.com/norse-iot"><i class="fa fa-github"></i></a>
+							<a class="social-header" target="_blank" href="https://instagram.com/norseiot"><i class="fa fa-instagram"></i></a>
+							<a class="social-header" target="_blank" href="https://twitter.com/norseiot"><i class="fa fa-twitter"></i></a>
+							<a class="social-header" target="_blank" href="https://www.linkedin.com/company/norse-iot/"><i class="fa fa-linkedin"></i></a>
+						</li>-->
+                    </ul>
+                    <form class="d-flex">
+                        <a href="https://nku.campusgroups.com/IoT/club_signup" class="btn btn-warning">Join Now!</a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    {{ content }}
+    <footer class="container">
+        <p class="float-end"><a class="social" href="#top"><i class="fa fa-arrow-up"></i></a></p>
+        <p id="social-block">
+            <span class="item">&copy; <span id="year">2022-2024</span> Norse IoT Club</span>
+            · <a href="https://norseiot.club/bylaws" class="item">Club Bylaws</a>
+            · <a class="social item" target="_blank" href="https://github.com/norse-iot"><i
+                    class="fa fa-github"></i></a>
+            · <a class="social item" target="_blank" href="https://instagram.com/norseiot"><i
+                    class="fa fa-instagram"></i></a>
+            · <a class="social item" target="_blank" href="https://discord.gg/H5FjtpE3pH"><svg
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.14 96.36">
+                    <g id="图层_2" data-name="图层 2">
+                        <g id="Discord_Logos" data-name="Discord Logos">
+                            <g id="Discord_Logo_-_Large_-_White" data-name="Discord Logo - Large - White">
+                                <path
+                                    d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z" />
+                            </g>
+                        </g>
+                    </g>
+                </svg></a>
+            · <a class="social item" target="_blank" href="https://www.linkedin.com/company/norse-iot/"><i
+                    class="fa fa-linkedin"></i></a>
+            · <a class="social item" target="_blank"
+                href="https://nku.campusgroups.com/feeds?type=club&type_id=35576&tab=home"><img id="campusgroups"
+                    style="height:28px;" src="/images/cg.avif" alt=""></a>
+        </p>
+    </footer>
+    <script src="/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <script src="/js/universalsmoothscroll-min.js"></script>
+    <!-- We include the API's easing library (this is optional) -->
+    <script src="/js/index.js"></script>
+    <script src="/js/universalsmoothscroll-ease-functions-min.js"></script>
+    <!-- Loads model-viewer for modern browsers -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+    <!-- Loads model-viewer for older browsers -->
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+</body>
+
+</html>
