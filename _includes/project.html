@@ -1,6 +1,6 @@
 <div class="row featurette {{include.image-align}}">
     <div class="col-md-{{include.text-size}}">
-        <h2 class="featurette-heading">{{include.title}}</h2>
+        <h2 id="{{include.title | slugify}}" class="featurette-heading">{{include.title}}</h2>
         <p class="lead">
             {{include.lead}}
         </p>

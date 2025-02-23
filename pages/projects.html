@@ -23,7 +23,7 @@ permalink: /Projects/
 		through building a Wi-Fi enabled game controller. We documented the event <a
 			href='https://wiki.norseiot.club/projects/techolympics25/'>on our Wiki</a>."
 			image = "/images/websockets.avif"
-			image-align = "right"
+			image-align = "left"
 			image-style = "margin-left:auto;margin-right:auto;display:block"
 			image-size = "5"
 			text-size = 7
@@ -58,99 +58,75 @@ permalink: /Projects/
 					on a Raspberry Pi, complete with a 5-minute long lightshow made using <a
 					href='https://xlights.org/'>xLights</a>."
 			image = "/images/blinktank.avif"
-			image-align = "right"
+			image-align = "left"
 			image-style = "height: 100%; object-fit: cover; object-position: top;"
-			image-size = 7
-			text-size = 5
+			image-size = 5
+			text-size = 7
 	
 			-%}
 
 		{%- include project-custom.html
 			title = ""
 			lead = "This prototype device turns *any* garage door opener into a smart home device. It is configured
-			using a captive portal to join
-			the local Wi-Fi, and is automatically added to Apple's Home.app. It is controllable remotely, using
-			the Home app or Siri,
-			on any Apple hardware."
+					using a captive portal to join
+					the local Wi-Fi, and is automatically added to Apple's Home.app. It is controllable remotely, using
+					the Home app or Siri,
+					on any Apple hardware."
 			desc = "It uses an ESP-32 microcontroller, a relay, and a magnetic reed switch to detect the state of the
-			door. This way, even if
-			the manual switch, keypad, or car fobs are used, the device keeps track of the door's state."
-			image-align = "right"
+					door. This way, even if
+					the manual switch, keypad, or car fobs are used, the device keeps track of the door's state."
 			side-content = "<video width='240' height='320' controls class='featurette-image img-fluid mx-auto'>
 				<source src='../images/garage_door.mp4' type='video/mp4'>
 				<source src='../images/garage_door.ogg' type='video/ogg'>
 				Your browser does not support the video tag.
 			</video>"
+			image-align = "right"
 			image-size = 5
 			text-size = 7
 		-%}
 
-		<div class="row featurette">
-			<div class="col-md-7 order-md-2">
-				<h2 class="featurette-heading">IoT Keychains</h2>
-				<p class="lead">
-					3D modelling for manufacturing is a component of our project work in Norse IoT. We're building
-					devices that need custom cases!</p>
-				<p>As a member of the Norse IoT club, you are provided with a keychain
-					designed and manufactured by the club. This project went from prototype to finished design in 2023.
-				</p>
-			</div>
-			<div class="col-md-5 order-md-1">
-				<model-viewer src="../models/keychain.glb" alt="A 3D model of a prototype Norse IoT keychain."
-					auto-rotate="" camera-controls="" background-color="#455A64"></model-viewer>
-			</div>
-		</div>
+		{%- include project-custom.html
+			title = "IoT Keychains"
+			lead = "3D modelling for manufacturing is a key part of our project work in Norse IoT. We're building
+			devices that need custom cases!"
+			desc = "As a member of the Norse IoT club, you are provided with a keychain
+					designed and manufactured by the club. This project went from prototype to finished design in 2023."
+			side-content = "<model-viewer src='../models/keychain.glb' alt='A 3D model of a prototype Norse IoT keychain.'
+							auto-rotate='' camera-controls='' background-color='#455A64'></model-viewer>"
+			image-align = "left"
+			image-size = 5
+			text-size = 7
+		-%}
 
-		<hr class="featurette-divider" id="info">
+		{%- include project-custom.html
+			title = "Humidity Project"
+			lead = "3D modelling for manufacturing is a key part of our project work in Norse IoT. We're building
+					devices that need custom cases!"
+			desc = "Griffin Hall flooded over the 2022 Christmas break, causing widespread damage. Flooding situations
+					require attention to both temperature and humidity to reduce the likelihood of dangerous mold growth."
+			image-align = "right"
+			side-content = "
+							<img class='featurette-image img-fluid mx-auto' src='../images/esp-32-temp.avif'
+							alt='A prototype of the Humidity Sensor used in Grifin Hall.' width='500'>
+							"
+			image-size = 5
+			text-size = 7
+		-%}
 
-		<div class="row featurette">
-			<div class="col-md-7">
-				<h2 class="featurette-heading">Humidity Project</h2>
-				<p class="lead">
-					Griffin Hall flooded over the 2022 Christmas break, causing widespread damage. Flooding situations
-					require attention
-					to both temperature and humidity to reduce the likelihood of dangerous mold growth.</p>
-				<p>Club Advisor Chris Brewer
-					and members of n-IoT quickly built and installed temperature and humidity sensors to monitor the
-					affected areas.
-					Data from the IoT sensors was displayed on a dashboard showing current and historical readings.
-					The project recieved attention from the Dean of the College of Informatics, as well as NKU
-					maintenance,
-					and was <a target="_blank"
-						href="https://www.thenortherner.com/news/2023/02/10/how-norse-iot-club-builds-humidity-sensors-for-griffin-hall">
-						spotlighted by the Northerner in February 2023</a>.
-				<p>
-				<p>The dashboard was repurposed as a teaching platform after the flood was resolved, and has been used
-					in multiple seminars with
-					high school students around the greater Cincinnati region.
-				</p>
-			</div>
-			<div class="col-md-5 d-flex align-items-center justify-content-center">
-				<img class="featurette-image img-fluid mx-auto" src="../images/esp-32-temp.avif"
-					alt="A prototype of the Humidity Sensor used in Grifin Hall." width="500">
-			</div>
-		</div>
-
-		<hr class="featurette-divider">
-
-		<div class="row featurette">
-			<div class="col-md-7 order-md-2">
-				<h2 class="featurette-heading">Website Workshops</h2>
-				<p class="lead">
-					Norse IoT is all about knowledge sharing. So the club focused on training NKU students on hosting
-					personal websites using NKU's webservers.</p>
-				<p>In 2022, the club hosted an Website Workshop event that
+		{%- include project-custom.html
+			title = "Website Workshops"
+			lead = "Norse IoT is all about knowledge sharing. So the club focused on training NKU students on hosting
+					personal websites using NKU's webservers."
+			desc = "In 2022, the club hosted an Website Workshop event that
 					taught students basic HTML and CSS and provided templates
-					for students to build off and host on an NKU provided personal website.
-				</p>
-			</div>
-			<div class="col-md-5 order-md-1">
-				<img style="height: 100%; object-fit: cover; object-position: top;"
-					class="featurette-image img-fluid mx-auto" src="../images/websiteworkshop.avif"
-					alt="Flyer advertising the Website Workshop event." width="500">
-			</div>
-		</div>
-
+					for students to build off and host on an NKU provided personal website."
+			image-align = "left"
+			side-content = "<img style='height: 100%; object-fit: cover; object-position: top;'
+			class='featurette-image img-fluid mx-auto' src='../images/websiteworkshop.avif'
+			alt='Flyer advertising the Website Workshop event.' width='500'>"
+			image-size = 5
+			text-size = 7
+		-%}
 
 		<!-- /END THE FEATURETTES -->
 	</div><!-- end #mission -->
