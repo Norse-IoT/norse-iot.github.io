@@ -1,6 +1,6 @@
 
 //This section of the code handles the Dark Mode popup.
-document.querySelector("body").innerHTML += `
+document.querySelector("#theme-container").innerHTML = `
 <div tabindex=0 onclick="theme('dark')" id="iot-theme" src="/images/dark.webp" class="" alt="Dark Mode">
 <i class="fa fa-2x fa-moon-o" aria-hidden="true"></i>
 </div>`

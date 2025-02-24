@@ -3,3 +3,8 @@ model-viewer {
     height: 100%;
     outline: none;
 }
+
+.row.left {
+    display: flex;
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,144 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
+	<div class="container marketing" id="mission">
+
+		<!-- START THE FEATURETTES -->
+
+		<hr class="featurette-divider">
+
+		{%- include project.html
+			title = "Websocket Workshops"
+			lead = "We taught students how to wire microcntrollers!"
+			desc = "Members of the Norse IoT Club walked students at TSA and <a
+					href='https://techolympics.org/'>TechOlympics 2025</a>
+					through building a Wi-Fi enabled game controller. Students learned basic wiring and electrical concepts.
+					 We documented the event <a
+					href='https://wiki.norseiot.club/projects/techolympics25/'>on our Wiki</a>."
+			image = "/images/websockets.avif"
+			image-align = "left"
+			image-style = "margin-left:auto;margin-right:auto;display:block"
+			image-size = "5"
+			text-size = 7
+		-%}
+
+
+		{%- include project.html
+		title = "Automatic Cat Feeder"
+		lead = "We made an automatic cat feeder for the cats of NKU!"
+		desc = "Throughout the Fall 2024-2025 semester, we noticed that there are cats living on campus that are
+			being regularly fed by the people of NKU. We realized that over winter break, it would be more difficult
+			for these cats to find food, so we made an automatic cat feeder. Read more 
+			<a href='https://zack.fyi/blog/cat-feeder/'>here</a>."
+		image = "/images/cat-feeder.avif"
+		image-align = "right"
+		image-style = "margin-left:auto;margin-right:auto;display:block"
+		image-size = "3"
+		text-size = 8
+		-%}
+
+		{%- include project.html
+			title = "BLINK TANK Bus"
+			lead = "We made a lightshow for the TANK bus in the BLINK 2024 parade!"
+			desc = "In collaboration with NKU's <a
+					href='https://www.nku.edu/academics/artsci/about/SchoolOfTheArts.html'>SOTA</a>,
+					we were tasked with creating a lightshow for a <a href='https://www.tankbus.org/'>TANK</a> bus as
+					part of the biennial
+					<a href='https://www.blinkcincinnati.com/'>BLINK</a> parade. Our design used an array of lightstrips
+					on both sides
+					controlled by a Light-O-Rama controller sequenced by <a
+					href='https://github.com/FalconChristmas/fpp'>Falcon player</a>
+					on a Raspberry Pi, complete with a 5-minute long lightshow made using <a
+					href='https://xlights.org/'>xLights</a>."
+			image = "/images/blinktank.avif"
+			image-align = "left"
+			image-style = "height: 100%; object-fit: cover; object-position: top;"
+			image-size = 5
+			text-size = 7
+	
+			-%}
+
+		{%- include project-custom.html
+			title = ""
+			lead = "This prototype device turns *any* garage door opener into a smart home device. It is configured
+					using a captive portal to join
+					the local Wi-Fi, and is automatically added to Apple's Home.app. It is controllable remotely, using
+					the Home app or Siri,
+					on any Apple hardware."
+			desc = "It uses an ESP-32 microcontroller, a relay, and a magnetic reed switch to detect the state of the
+					door. This way, even if
+					the manual switch, keypad, or car fobs are used, the device keeps track of the door's state."
+			side-content = "<video width='240' height='320' controls class='featurette-image img-fluid mx-auto'>
+				<source src='../images/garage_door.mp4' type='video/mp4'>
+				<source src='../images/garage_door.ogg' type='video/ogg'>
+				Your browser does not support the video tag.
+			</video>"
+			image-align = "right"
+			image-size = 5
+			text-size = 7
+		-%}
+
+		{%- include project-custom.html
+			title = "IoT Keychains"
+			lead = "3D modelling for manufacturing is a key part of our project work in Norse IoT. We're building
+			devices that need custom cases!"
+			desc = "As a member of the Norse IoT club, you are provided with a keychain
+					designed and manufactured by the club. This project went from prototype to finished design in 2023."
+			side-content = "<model-viewer src='../models/keychain.glb' alt='A 3D model of a prototype Norse IoT keychain.'
+							auto-rotate='' camera-controls='' background-color='#455A64'></model-viewer>"
+			image-align = "left"
+			image-size = 5
+			text-size = 7
+		-%}
+
+		{%- include project-custom.html
+			title = "Humidity Project"
+			lead = "3D modelling for manufacturing is a key part of our project work in Norse IoT. We're building
+					devices that need custom cases!"
+			desc = "Club Advisor Chris Brewer 
+					and members of n-IoT quickly built and installed temperature and humidity sensors to monitor the affected areas.
+					Data from the IoT sensors was displayed on a dashboard showing current and historical readings.
+					The project recieved attention from the Dean of the College of Informatics, as well as NKU maintenance,
+					and was <a target='_blank' href='https://www.thenortherner.com/news/2023/02/10/how-norse-iot-club-builds-humidity-sensors-for-griffin-hall'>
+					spotlighted by the Northerner in February 2023</a>.
+					<p>The dashboard was repurposed as a teaching platform after the flood was resolved, and has been used in multiple seminars with
+					high school students around the greater Cincinnati region.</p>"
+			image-align = "right"
+			side-content = "
+							<img class='featurette-image img-fluid mx-auto' src='../images/esp-32-temp.avif'
+							alt='A prototype of the Humidity Sensor used in Grifin Hall.' width='500'>
+							"
+			image-size = 5
+			text-size = 7
+		-%}
+
+		{%- include project-custom.html
+			title = "Website Workshops"
+			lead = "Norse IoT is all about knowledge sharing. So the club focused on training NKU students on hosting
+					personal websites using NKU's webservers."
+			desc = "In 2022, the club hosted an Website Workshop event that
+					taught students basic HTML and CSS and provided templates
+					for students to build off and host on an NKU provided personal website."
+			image-align = "left"
+			side-content = "<img style='height: 100%; object-fit: cover; object-position: top;'
+			class='featurette-image img-fluid mx-auto' src='../images/websiteworkshop.avif'
+			alt='Flyer advertising the Website Workshop event.' width='500'>"
+			image-size = 5
+			text-size = 7
+		-%}
+
+		<!-- /END THE FEATURETTES -->
+	</div><!-- end #mission -->
+
+
+	<div class="container-fluid text-center bg-dark" id="cta">
+		<div class="col-md-5 p-lg-5 mx-auto my-5">
+			{%- include logo.html id="join-now-svg" -%}
+			<a class="btn btn-outline-warning" href="https://nku.campusgroups.com/IoT/club_signup">Join Now!</a>
+		</div>
+		<div class="product-device shadow-sm d-none d-md-block"></div>
+		<div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+	</div><!-- end #cta -->

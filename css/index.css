@@ -9,20 +9,17 @@
 }
 
 #iot-theme {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    padding: 20px;
-	margin-bottom: 20px;
-	margin-right: 20px;
+	margin-right: 1.2em;
     cursor: pointer;
     border-radius: 50%;
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	background-color: var(--body-bg);
-	filter: drop-shadow(2px 4px 6px var(--shadow-color));
+	align-items: top;
 
+}
+
+#end-block {
+	display: flex;
 }
 
 body {
@@ -186,7 +183,7 @@ body {
 	font-size: 28px;
 	color: var(--text);
 }
-.social:hover, .social:active {
+.social:hover, .social:active, #iot-theme:hover, #iot-theme:active {
 	color: var(--social-hover);
 }
 .social-header {
